@@ -1,0 +1,12 @@
+.DS_Store
+.idea
+*.iml
+
+**/.terraform
+*.lock.hcl
+*.tfstate
+*.tfstate.backup
+
+**/.terragrunt-cache
+
+terragrunt/**/provider.tf
